@@ -1,5 +1,11 @@
-import Header from './components/Header'
-import './styles/globals.css'
+import Header from '../components/Header'
+import '../styles/globals.css'
+import { Roboto } from 'next/font/google'
+
+const roboto = Roboto({
+  weight: '400',
+  subsets: ['latin'],
+})
 
 export const metadata = {
   title: 'Travel App',
@@ -13,8 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt_BR">
-      <body>
-        <Header/>
+      <body className={roboto.className}>
         {children}
       </body>
     </html>
