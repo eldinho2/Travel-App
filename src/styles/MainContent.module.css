@@ -1,0 +1,121 @@
+.home {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.textDiv {
+  padding: 0 1.5rem;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(76 87 127 / 20%);
+  z-index: 1;
+  mix-blend-mode: hard-light;
+}
+
+.searchDiv{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.homeTitle {
+  position: relative;
+  font-size: 3rem;
+  color: white;
+}
+
+.homeTitle::after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  height: 3px;
+  background-color: #0041ff;
+  bottom: 5px;
+  left: 370px;
+  z-index: 1;
+}
+
+.smallText {
+  position: relative;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.homeContent {
+  width: 100%;
+  height: max-content;
+  padding: 8rem 1.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  align-items: stretch;
+  justify-content: center;
+  margin: auto;
+  color: #fff;
+  z-index: 100;
+}
+
+.video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.searchDiv {
+  display: flex;
+  border: 1px solid #e5e5e6;
+  background-color: #e5e5e6;
+  width: 100%;
+  height: 100px;
+  border-radius: 5px;
+  padding: 0 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+}
+
+.inputSearch {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.5rem;
+  position: relative;
+}
+
+.inputSearch span {
+  margin-bottom: 1.5rem;
+}
+
+.iconSearch {
+  position: absolute;
+  top: 70%;
+  left: 180px;
+  cursor: text;
+}
+
+.maxPrice {
+  display: flex;
+  padding: 0 1.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}

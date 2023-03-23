@@ -33,7 +33,7 @@
 .iconHeader {
   width: 30px;
   height: 30px;
-  color: #348fb3;
+  color: hsl(199, 100%, 33%);
 }
 
 .header_list {
@@ -42,7 +42,7 @@
 }
 
 .header_list li {
-  margin-right: 20px;
+  margin-right: 10px;
   list-style: none;
   text-decoration: none;
 }
