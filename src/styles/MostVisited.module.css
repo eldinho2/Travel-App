@@ -1,0 +1,90 @@
+.mostVisited_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title_wrapper{
+    display: flex;
+    padding: 0px 10px;
+}
+
+.title{
+    position: relative;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 145px;
+    width: 110px;
+    height: 3px;
+    background: linear-gradient(90deg, rgba(0,249,255,1) 19%, rgba(0,212,255,1) 55%, rgba(11,86,98,1) 99%);
+}
+
+.destinations_container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
+    width: 300px;
+    margin: 10px 10px;
+    background: #c7c8c8;
+}
+
+.destinations_container:hover {
+    transition: 0.6s;
+    background: white;
+}
+
+.image_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.price_wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.image_wrapper img:hover {
+    transform: scale(1.03);
+    transition: 0.6s;
+    border-radius: 10px;
+}
+
+.description_wrapper {
+    padding: 10px;
+    height: 100%;
+}
+
+.button_wrapper {
+    display: flex;
+    padding: 10px;
+}
+
+.button_wrapper button {
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(0,249,255,1) 19%, rgba(0,212,255,1) 55%, rgba(11,86,98,1) 99%);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 4px 20px;
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+		"img": "/images/pexels-photo-13008261.jpeg",
+		"price": 250,
+    "pais": "Estados Unidos",
+    "cidade": "Nova York",
+    "descricao": "Nova York é a cidade que nunca dorme. Com arranha-céus icônicos como o Empire State Building e a Estátua da Liberdade, é um lugar perfeito para compras, teatros, restaurantes e vida noturna vibrante."
+  },
+  {
+    "id": 2,
+		"img": "/images/pexels-photo-2678456.jpeg",
+		"price": 400,
+    "pais": "Itália",
+    "cidade": "Roma",
+    "descricao": "Roma é a cidade eterna, repleta de ruínas antigas, arte renascentista e deliciosa comida italiana. Os visitantes podem passear pela Fontana di Trevi, visitar o Coliseu e explorar o Vaticano."
+  },
+
+  {
+    "id": 3,
+		"img": "/images/pexels-photo-3182530.jpeg",
+		"price": 300,
+    "pais": "França",
+    "cidade": "Paris",
+    "descricao": "Paris é conhecida como a cidade do amor, com a Torre Eiffel icônica, museus renomados como o Louvre e uma cena gastronômica requintada. Além disso, é um ótimo lugar para fazer compras de moda e desfrutar de cafés charmosos."
+  },
+
+  {
+    "id": 4,
+		"img": "/images/pexels-photo-3722818.jpeg",
+		"price": 200,
+    "pais": "Espanha",
+    "cidade": "Barcelona",
+    "descricao": "Barcelona é uma cidade vibrante, com uma arquitetura incrível de Antoni Gaudí, praias deslumbrantes e uma cena gastronômica famosa por sua comida de rua. É um lugar perfeito para desfrutar da vida noturna espanhola."
+  },
+
+  {
+    "id": 5,
+		"img": "/images/pexels-photo-672532.jpeg",
+		"price": 500,
+    "pais": "Reino Unido",
+    "cidade": "Londres",
+    "descricao": "Londres é uma cidade cosmopolita, com atrações turísticas famosas como o Big Ben, o London Eye e o Palácio de Buckingham. Além disso, é um lugar ideal para fazer compras e desfrutar de uma animada vida noturna."
+  },
+
+  {
+    "id": 7,
+		"img": "/images/pexels-photo-13932080.jpeg",
+		"price": 600,
+    "pais": "Emirados Árabes Unidos",
+    "cidade": "Dubai",
+    "descricao": "Dubai é uma cidade moderna e futurista, com arranha-céus icônicos, shoppings extravagantes e praias de tirar o fôlego. Além disso, é um ótimo lugar para fazer compras e desfrutar de uma vida noturna vibrante."
+  },
+
+  {
+    "id": 8,
+		"img": "/images/pexels-photo-783683.jpeg",
+		"price": 700,
+    "pais": "Austrália",
+    "cidade": "Sydney",
+    "descricao": "Sydney é uma cidade vibrante com uma cena de praia icônica e a Opera House de Sydney. Os visitantes podem desfrutar de um dia na praia, fazer compras em Paddington ou passear pelos Jardins Botânicos Reais."
+  },
+
+  {
+    "id": 9,
+		"img": "/images/pexels-photo-65567.jpeg",
+		"price": 800,
+    "pais": "Alemanha",
+    "cidade": "Berlim",
+    "descricao": "Berlim é uma cidade histórica com uma cena cultural vibrante. Com atrações turísticas famosas, como o Muro de Berlim e a Porta de Brandenburgo, além de museus de classe mundial, é um lugar ideal para aprender sobre a história europeia."
+  },
+  {
+		"id": 10,
+		"img": "/images/pexels-photo-3648269.jpeg",
+		"price": 400,
+    "pais": "Brasil",
+    "cidade": "Rio de Janeiro",
+    "descricao": "O Rio de Janeiro é uma cidade brasileira conhecida por suas praias icônicas, como Copacabana e Ipanema, o Cristo Redentor e o Pão de Açúcar. Além disso, é um ótimo lugar para experimentar a cultura e a comida brasileira."
+  },
+
+  {
+		"id": 11,
+		"img": "/images/pexels-photo-14071000.jpeg",
+		"price": 700,
+    "pais": "México",
+    "cidade": "Cidade do México",
+    "descricao": "A Cidade do México é uma cidade movimentada, com um centro histórico belo e cheio de cultura. Os visitantes podem visitar as ruínas astecas e maias, desfrutar de uma deliciosa comida mexicana e dançar ao som de música tradicional."
+  },
+
+  {
+		"id": 12,
+		"img": "/images/pexels-photo-2339009.jpeg",
+		"price": 300,
+    "pais": "Japão",
+    "cidade": "Tóquio",
+    "descricao": "Tóquio é uma cidade moderna e vibrante, com uma mistura de tradição e tecnologia. Os visitantes podem experimentar a cultura japonesa tradicional em templos antigos, visitar a Torre de Tóquio ou desfrutar da incrível culinária japonesa."
+  },
+
+  {
+		"id": 13,
+		"img": "/images/pexels-photo-3412019.jpeg",
+		"price": 900,
+    "pais": "Portugal",
+    "cidade": "Lisboa",
+    "descricao": "Lisboa é uma cidade histórica e encantadora, com ruas de paralelepípedos, azulejos coloridos e uma cena gastronômica deliciosa. Os visitantes podem explorar a Torre de Belém, visitar o Castelo de São Jorge ou simplesmente relaxar em um café ao ar livre."
+  }
+]

@@ -1,8 +1,9 @@
 import React from "react";
-import RangeValue from "@/components/RangeValue";
+import RangeValue from "../components/RangeValue";
 import { BiMap } from "react-icons/bi";
 
 import style from "../styles/MainContent.module.css";
+import MostVisited from "../components/MostVisited";
 
 const video =
   "https://cdn.discordapp.com/attachments/616035988518600704/1088207263359045732/ocean-51585.mp4";
@@ -47,11 +48,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section>
-        <div className={style.destinations_container}>
-          <div className={style.destinations}>destinos</div>
-        </div>
-      </section>
+      <MostVisited/>
     </main>
   );
 }
