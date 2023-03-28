@@ -18,7 +18,7 @@
   height: 100%;
   top: 0;
   bottom: 0;
-  background-color: rgb(76 87 127 / 20%);
+  background-color: rgba(0, 0, 0, 0.3);
   z-index: 1;
   mix-blend-mode: hard-light;
 }
@@ -58,18 +58,8 @@
   color: white;
 }
 
-.homeContent {
-  width: 100%;
-  height: max-content;
-  padding: 8rem 1.5rem 3rem;
-  display: flex;
-  flex-direction: column;
-  row-gap: 1.5rem;
-  align-items: stretch;
-  justify-content: center;
-  margin: auto;
-  color: #fff;
-  z-index: 100;
+.homeContent_container {
+  z-index: 1;
 }
 
 .video {

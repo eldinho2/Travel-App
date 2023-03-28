@@ -12,7 +12,7 @@ export default function Header() {
       <div className={styles.header_list_container}>
         <ul className={styles.header_list}>
           <li>
-            <Link href="/">Home</Link>
+            <Link href="/" replace>Home</Link>
           </li>
           <li>
             <Link href="/packages">Packages</Link>
@@ -21,7 +21,7 @@ export default function Header() {
             <Link href="/shop">Shop</Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <Link href="/about" replace>About</Link>
           </li>
           <li>
             <Link href="/pages">Pages</Link>

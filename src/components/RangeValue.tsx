@@ -12,9 +12,9 @@ export default function RangeValue() {
   }
   
   return (
-    <>
+    <div>
       <input onChange={showRangedPrice} type='range' value={rangeValue} max='5000' min='500' step='1'/>
       <span>{rangeValue} R$</span> 
-    </>
+    </div>
   )
 }

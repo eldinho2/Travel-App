@@ -3,8 +3,7 @@ import React, {useEffect} from "react";
 import data from "../fakedata/data-cRR1vLWcnA9fLhaTUJrJH.json";
 import Image from "next/image";
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
+import 'aos/dist/aos.css';
 import { HiLocationMarker } from "react-icons/hi";
 
 import styles from "../styles/MostVisited.module.css";
@@ -15,6 +14,7 @@ export default function MostVisited() {
   }, []);
 
   return (
+    <div>
     <section data-aos="fade-up">
       <div>
         <div className={styles.title_wrapper}>
@@ -26,7 +26,7 @@ export default function MostVisited() {
               <div className={styles.destinations_container} key={item.id}>
                 <div className={styles.image_wrapper}>
                   <Image
-                    style={ { borderTopLeftRadius: "9px", borderTopRightRadius: "9px" }}
+                    style={ { borderTopLeftRadius: "9px", borderTopRightRadius: "9px"}}
                     src={item.img}
                     width={400}
                     height={200}
@@ -57,5 +57,6 @@ export default function MostVisited() {
       </div>
       <div></div>
     </section>
+    </div>
   );
 }
