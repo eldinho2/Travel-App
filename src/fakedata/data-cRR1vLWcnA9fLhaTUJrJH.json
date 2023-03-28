@@ -15,25 +15,6 @@
     "cidade": "Roma",
     "descricao": "Roma é a cidade eterna, repleta de ruínas antigas, arte renascentista e deliciosa comida italiana. Os visitantes podem passear pela Fontana di Trevi, visitar o Coliseu e explorar o Vaticano."
   },
-
-  {
-    "id": 3,
-		"img": "/images/pexels-photo-3182530.jpeg",
-		"price": 300,
-    "pais": "França",
-    "cidade": "Paris",
-    "descricao": "Paris é conhecida como a cidade do amor, com a Torre Eiffel icônica, museus renomados como o Louvre e uma cena gastronômica requintada. Além disso, é um ótimo lugar para fazer compras de moda e desfrutar de cafés charmosos."
-  },
-
-  {
-    "id": 4,
-		"img": "/images/pexels-photo-3722818.jpeg",
-		"price": 200,
-    "pais": "Espanha",
-    "cidade": "Barcelona",
-    "descricao": "Barcelona é uma cidade vibrante, com uma arquitetura incrível de Antoni Gaudí, praias deslumbrantes e uma cena gastronômica famosa por sua comida de rua. É um lugar perfeito para desfrutar da vida noturna espanhola."
-  },
-
   {
     "id": 5,
 		"img": "/images/pexels-photo-672532.jpeg",
@@ -77,16 +58,6 @@
     "cidade": "Rio de Janeiro",
     "descricao": "O Rio de Janeiro é uma cidade brasileira conhecida por suas praias icônicas, como Copacabana e Ipanema, o Cristo Redentor e o Pão de Açúcar. Além disso, é um ótimo lugar para experimentar a cultura e a comida brasileira."
   },
-
-  {
-		"id": 11,
-		"img": "/images/pexels-photo-14071000.jpeg",
-		"price": 700,
-    "pais": "México",
-    "cidade": "Cidade do México",
-    "descricao": "A Cidade do México é uma cidade movimentada, com um centro histórico belo e cheio de cultura. Os visitantes podem visitar as ruínas astecas e maias, desfrutar de uma deliciosa comida mexicana e dançar ao som de música tradicional."
-  },
-
   {
 		"id": 12,
 		"img": "/images/pexels-photo-2339009.jpeg",

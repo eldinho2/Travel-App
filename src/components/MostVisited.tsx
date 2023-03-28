@@ -15,7 +15,7 @@ export default function MostVisited() {
 
   return (
     <div>
-    <section data-aos="fade-up">
+    <section data-aos="fade-up" data-aos-once="true">
       <div>
         <div className={styles.title_wrapper}>
         <h1 className={styles.title}>Lugares mais Visitados</h1>
@@ -41,7 +41,7 @@ export default function MostVisited() {
                   </p>
                 </div>
                 <div className={styles.price_wrapper}>
-                  <span>CULTURAL RELAX </span>
+                  <span>CULTURAL RELAX</span>
                   <span>R${item.price}</span>
                 </div>
                 <div className={styles.description_wrapper}>
