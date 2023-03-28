@@ -84,6 +84,23 @@
   box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
 }
 
+.searchDiv button {
+  background-color: #00d4ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.maxPrice_input{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .inputSearch {
   display: flex;
   flex-direction: column;

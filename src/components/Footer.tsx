@@ -1,5 +1,6 @@
 import React from "react";
 import { AiFillInstagram, AiFillFacebook, AiFillTwitterCircle } from "react-icons/ai";
+import { BsFillSendFill } from "react-icons/bs";
 
 import style from "../styles/Footer.module.css";
 
@@ -26,7 +27,7 @@ export default function Footer() {
                 <label htmlFor="NewsLetter">
                   <input type="text" placeholder="Digite seu email" />
                 </label>
-                <button type="submit">Enviar</button>
+                <button className={style.footer_newsLetterbTN}><BsFillSendFill/> Enviar</button>
               </form>
             </div>
           </div>

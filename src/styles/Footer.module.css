@@ -71,29 +71,30 @@
 }
 
 .footer_newsLetter input {
-  width: 100%;
-  height: 3.5rem;
-  border: none;
-  border-radius: 0.5rem;
-  padding: 0 1rem;
-  font-size: 1.5rem;
-  font-weight: 500;
-  line-height: 1.5;
-  color: #fff;
-  margin-right: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
 }
 
-.footer_newsLetter button {
-  width: 3.5rem;
-  height: 3.5rem;
+.footer_newsLetter input:focus {
+  border-color: #8ac4ff;
+}
+
+.footer_newsLetterbTN {
   border: none;
-  border-radius: 0.5rem;
-  background-color: #fff;
-  color: #000;
-  font-size: 1.5rem;
-  font-weight: 500;
-  line-height: 1.5;
+  border-radius: 5px;
+  font-size: 16px;
   cursor: pointer;
+  margin-left: 10px;
+  background: linear-gradient(10deg, rgba(0,249,255,1) 19%, rgba(0,212,255,1) 55%, rgba(11,86,98,1) 99%);
+}
+
+.footer_newsLetterbTN:hover {
+  background: linear-gradient(40deg, rgba(0,249,255,1) 19%, rgba(0,212,255,1) 55%, rgba(11,86,98,1) 99%);
 }
 
 .footer_Infos {
