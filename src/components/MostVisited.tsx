@@ -26,7 +26,7 @@ export default function MostVisited() {
               <div className={styles.destinations_container} key={item.id}>
                 <div className={styles.image_wrapper}>
                   <Image
-                    style={ { borderTopLeftRadius: "9px", borderTopRightRadius: "9px"}}
+                    style={ { borderTopLeftRadius: "9px", borderTopRightRadius: "9px",}}
                     src={item.img}
                     width={400}
                     height={200}

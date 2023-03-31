@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../styles/Header.module.css";
 import Link from "next/link";
 import { MdTravelExplore } from "react-icons/md";
+import { HamburguerMenu } from "../components/HamburguerMenu";
 
 export default function Header() {
   return (
@@ -9,10 +10,10 @@ export default function Header() {
       <div className={styles.header_title}>
         <h1><Link href="/"><MdTravelExplore className={styles.iconHeader}/>Travel.</Link></h1>
       </div>
-      <div className={styles.header_list_container}>
+      <nav className={styles.header_list_container}>
         <ul className={styles.header_list}>
           <li>
-            <Link href="/" replace>Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li>
             <Link href="/packages">Packages</Link>
@@ -21,7 +22,7 @@ export default function Header() {
             <Link href="/shop">Shop</Link>
           </li>
           <li>
-            <Link href="/about" replace>About</Link>
+            <Link href="/about">About</Link>
           </li>
           <li>
             <Link href="/pages">Pages</Link>
@@ -34,7 +35,8 @@ export default function Header() {
           </li>
         </ul>
         <button className={styles.header_button}>BOOK NOW</button>
-      </div>
+      </nav>
+      <HamburguerMenu />
     </header>
   );
 }

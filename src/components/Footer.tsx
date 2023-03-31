@@ -1,3 +1,5 @@
+'use client'
+
 import React from "react";
 import { AiFillInstagram, AiFillFacebook, AiFillTwitterCircle } from "react-icons/ai";
 import { BsFillSendFill } from "react-icons/bs";
