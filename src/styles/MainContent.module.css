@@ -177,3 +177,11 @@
     flex-wrap: wrap;
   }
 }
+
+@media (max-width: 313px) {
+  .homeTitle::after {
+    width: 84px;
+    bottom: 1px;
+    left: -2px;
+  }
+}

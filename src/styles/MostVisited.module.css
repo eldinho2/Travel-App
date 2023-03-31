@@ -106,18 +106,20 @@
     .destinations_container {
         width: 300px;
     }
-    .image_wrapper img {
-        height: 100%;
-        width: 100%;
-    }
 }
 
-@media (max-width: 959px) {
-    .destinations_container {
-        width: 250px;
+
+@media (max-width: 810px) {
+    .title_wrapper h1 {
+        margin: 3px;
     }
-    .image_wrapper img {
-        height: 100%;
-        width: 100%;
+    .title_wrapper p {
+        margin: 4px;
+    }
+    .price_wrapper {
+        padding: 5px 0;
+    }
+    .title_wrapper {
+        padding: 0px 10px;
     }
 }

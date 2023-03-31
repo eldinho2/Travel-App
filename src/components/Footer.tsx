@@ -3,7 +3,9 @@
 import React from "react";
 import { AiFillInstagram, AiFillFacebook, AiFillTwitterCircle } from "react-icons/ai";
 import { BsFillSendFill } from "react-icons/bs";
+import { MdTravelExplore } from "react-icons/md";
 
+import styles from "../styles/Header.module.css";
 import style from "../styles/Footer.module.css";
 
 export default function Footer() {
@@ -36,13 +38,9 @@ export default function Footer() {
           <div className={style.footer_Infos}>
             <div data-aos="fade-up" data-aos-once="true" data-aos-delay="50"
     data-aos-duration="1000" className={style.footer_InfosDesc}>
-              <h3>Travel.</h3>
+              <h3><MdTravelExplore className={styles.iconHeader}/>Travel.</h3>
               <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
-                ab id provident nostrum molestiae harum similique officia
-                aliquid minima rerum culpa soluta nam non ducimus qui magni,
-                cumque reiciendis odio?
-              </span>
+                Obrigado por escolher a nossa agência de viagens. Esperamos ter superado suas expectativas. Fique à vontade para entrar em contato conosco para planejar sua próxima aventura. Lembre-se: viajar é enriquecedor. Até a próxima viagem!              </span>
               <div>
                 <p>© 2021 Travel. All rights reserved.</p>
               </div>

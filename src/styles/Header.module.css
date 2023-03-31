@@ -7,7 +7,7 @@
   width: 100%;
   background: #fff;
   position: fixed;
-  z-index: 2;
+  z-index: 5;
 }
 
 .header_list_container {
@@ -92,8 +92,28 @@
 }
 
 .hamburguer_menu_Open{
-  display: block;
+  display: flex;
 }
+
+.hamburguer_menu_Open ul {
+  display: flex;
+  text-decoration: none;
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hamburguer_menu_Open a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #1d96a1;
+}
+
+.hamburguer_menu_Open li {
+  list-style: none;
+  margin: 20px 0;
+}
+
 .hamburguer_container_opened{
   display: flex;
   flex-direction: column;
