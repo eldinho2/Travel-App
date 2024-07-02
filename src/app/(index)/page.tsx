@@ -6,7 +6,7 @@ import style from "../../styles/MainContent.module.css";
 import MostVisited from "../../components/MostVisited";
 
 const video =
-  "https://cdn.discordapp.com/attachments/616035988518600704/1088207263359045732/ocean-51585.mp4";
+  "https://cdn.discordapp.com/attachments/616035988518600704/1088207263359045732/ocean-51585.mp4?ex=668514bd&is=6683c33d&hm=f5e50547b7e2a97e7249e10912f48c23b5ae971d7f277890d7fb4b0ef4b8f72e&";
 
 export default function Home() {
   return (
